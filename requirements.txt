@@ -1,0 +1,16 @@
+# STRN human motion prediction project
+#
+# PyTorch must be installed with a build compatible with the server's CUDA
+# driver. If the default PyPI wheel is not appropriate, install torch first
+# from the official PyTorch index for the target CUDA version, then install
+# the remaining dependencies from this file.
+torch>=2.0
+
+numpy>=1.23
+scipy>=1.9
+h5py>=3.8
+pandas>=1.5
+matplotlib>=3.6
+seaborn>=0.12
+six>=1.16
+Pillow>=9.0
